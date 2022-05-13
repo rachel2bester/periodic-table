@@ -1,15 +1,16 @@
 .table__element {
   color: red;
-  border: 1px solid white;
-  height: 50px;
-  width: 50px;
+  border: 1px solid black;
+  border-radius: 3px;
+  height: 35px;
+  width: 35px;
   background-color: yellow;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
   font-family: Arial;
-  font-size: 10px;
+  font-size: 8px;
 }
 .table__element__symbol {
   align-self: center;
@@ -20,15 +21,68 @@
   -webkit-text-decoration-style: dotted;
           text-decoration-style: dotted;
 }
+.table .noble-gas {
+  background-color: purple;
+}
+.table .Metal {
+  background-color: blue;
+}
+.table .Transactinide {
+  background-color: pink;
+}
+.table .Actinide {
+  background-color: white;
+}
+.table .alkali-metal {
+  background-color: indigo;
+}
+.table .transition-metal {
+  background-color: lime;
+}
+.table .Metalloid {
+  background-color: green;
+}
+.table .Nonmetal {
+  background-color: yellow;
+}
+.table .Halogen {
+  background-color: grey;
+}
+.table .Lanthanide {
+  background-color: cyan;
+}
+.table .alkaline-earth-metal {
+  background-color: hotpink;
+}
 
 .table {
   display: grid;
-  background-color: aqua;
-  grid-template-areas: "Hydrogen gap gap gap Helium";
+  grid-template-areas: "Hydrogen gap1 gap1 gap1 gap1 gap1 gap1 gap1 gap1 gap1 gap1 gap1 gap1 gap1 gap1 gap1 gap1 Helium" "Lithium Beryllium gap2 gap2 gap2 gap2 gap2 gap2 gap2 gap2 gap2 gap2 Boron Carbon Nitrogen Oxygen Fluorine Neon" "Sodium Magnesium gap2 gap2 gap2 gap2 gap2 gap2 gap2 gap2 gap2 gap2 Aluminum Silicon Phosphorus Sulfur Chlorine Argon" "Potassium Calcium Scandium Titanium Vanadium Chromium Manganese Iron Cobalt Nickel Copper Zinc Gallium Germanium Arsenic Selenium Bromine Krypton" "Rubidium Strontium Yttrium Zirconium Niobium Molybdenum Technetium Ruthenium Rhodium Palladium Silver Cadmium Indium Tin Antimony Tellurium Iodine Xenon" "Cesium Barium Lanthanum  Hafnium Tantalum Wolfram Rhenium Osmium Iridium Platinum Gold Mercury Thallium Lead Bismuth Polonium Astatine Radon" "Francium Radium Actinium Rutherfordium Dubnium Seaborgium Bohrium Hassium Meitnerium Darmstadtium Roentgenium Copernicium Nihonium Flerovium Moscovium Livermorium Tennessine Oganesson" "gap3 gap3 gap3 Cerium Praseodymium Neodymium Promethium Samarium Europium Gadolinium Terbium Dysprosium Holmium Erbium Thulium Ytterbium Lutetium gap4" "gap3 gap3 gap3 Thorium Protactinium Uranium Neptunium Plutonium Americium Curium Berkelium Californium Einsteinium Fermium Mendelevium Nobelium Lawrencium gap4";
+  width: 630px;
 }
 
-.gap {
-  grid-area: gap;
+.gap1 {
+  grid-area: gap1;
+  height: 35px;
+  width: 35px;
+}
+
+.gap2 {
+  grid-area: gap2;
+  height: 35px;
+  width: 35px;
+}
+
+.gap3 {
+  grid-area: gap2;
+  height: 35px;
+  width: 35px;
+}
+
+.gap4 {
+  grid-area: gap2;
+  height: 35px;
+  width: 35px;
 }
 
 .Hydrogen {
