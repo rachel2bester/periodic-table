@@ -1,0 +1,26 @@
+.table__element {
+  color: red;
+  border: 1px solid white;
+  height: 50px;
+  width: 50px;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  font-family: Arial;
+  font-size: 10px;
+}
+.table__element__symbol {
+  align-self: center;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+  -webkit-text-decoration-style: dotted;
+          text-decoration-style: dotted;
+}
+
+body {
+  background-color: black;
+}/*# sourceMappingURL=styles.css.map */
