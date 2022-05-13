@@ -21,6 +21,488 @@
           text-decoration-style: dotted;
 }
 
+.table {
+  display: grid;
+  background-color: aqua;
+  grid-template-areas: "Hydrogen gap gap gap Helium";
+}
+
+.gap {
+  grid-area: gap;
+}
+
+.Hydrogen {
+  grid-area: Hydrogen;
+}
+
+.Helium {
+  grid-area: Helium;
+}
+
+.Lithium {
+  grid-area: Lithium;
+}
+
+.Beryllium {
+  grid-area: Beryllium;
+}
+
+.Boron {
+  grid-area: Boron;
+}
+
+.Carbon {
+  grid-area: Carbon;
+}
+
+.Nitrogen {
+  grid-area: Nitrogen;
+}
+
+.Oxygen {
+  grid-area: Oxygen;
+}
+
+.Fluorine {
+  grid-area: Fluorine;
+}
+
+.Neon {
+  grid-area: Neon;
+}
+
+.Sodium {
+  grid-area: Sodium;
+}
+
+.Magnesium {
+  grid-area: Magnesium;
+}
+
+.Aluminum {
+  grid-area: Aluminum;
+}
+
+.Silicon {
+  grid-area: Silicon;
+}
+
+.Phosphorus {
+  grid-area: Phosphorus;
+}
+
+.Sulfur {
+  grid-area: Sulfur;
+}
+
+.Chlorine {
+  grid-area: Chlorine;
+}
+
+.Argon {
+  grid-area: Argon;
+}
+
+.Potassium {
+  grid-area: Potassium;
+}
+
+.Calcium {
+  grid-area: Calcium;
+}
+
+.Scandium {
+  grid-area: Scandium;
+}
+
+.Titanium {
+  grid-area: Titanium;
+}
+
+.Vanadium {
+  grid-area: Vanadium;
+}
+
+.Chromium {
+  grid-area: Chromium;
+}
+
+.Manganese {
+  grid-area: Manganese;
+}
+
+.Iron {
+  grid-area: Iron;
+}
+
+.Cobalt {
+  grid-area: Cobalt;
+}
+
+.Nickel {
+  grid-area: Nickel;
+}
+
+.Copper {
+  grid-area: Copper;
+}
+
+.Zinc {
+  grid-area: Zinc;
+}
+
+.Gallium {
+  grid-area: Gallium;
+}
+
+.Germanium {
+  grid-area: Germanium;
+}
+
+.Arsenic {
+  grid-area: Arsenic;
+}
+
+.Selenium {
+  grid-area: Selenium;
+}
+
+.Bromine {
+  grid-area: Bromine;
+}
+
+.Krypton {
+  grid-area: Krypton;
+}
+
+.Rubidium {
+  grid-area: Rubidium;
+}
+
+.Strontium {
+  grid-area: Strontium;
+}
+
+.Yttrium {
+  grid-area: Yttrium;
+}
+
+.Zirconium {
+  grid-area: Zirconium;
+}
+
+.Niobium {
+  grid-area: Niobium;
+}
+
+.Molybdenum {
+  grid-area: Molybdenum;
+}
+
+.Technetium {
+  grid-area: Technetium;
+}
+
+.Ruthenium {
+  grid-area: Ruthenium;
+}
+
+.Rhodium {
+  grid-area: Rhodium;
+}
+
+.Palladium {
+  grid-area: Palladium;
+}
+
+.Silver {
+  grid-area: Silver;
+}
+
+.Cadmium {
+  grid-area: Cadmium;
+}
+
+.Indium {
+  grid-area: Indium;
+}
+
+.Tin {
+  grid-area: Tin;
+}
+
+.Antimony {
+  grid-area: Antimony;
+}
+
+.Tellurium {
+  grid-area: Tellurium;
+}
+
+.Iodine {
+  grid-area: Iodine;
+}
+
+.Xenon {
+  grid-area: Xenon;
+}
+
+.Cesium {
+  grid-area: Cesium;
+}
+
+.Barium {
+  grid-area: Barium;
+}
+
+.Lanthanum {
+  grid-area: Lanthanum;
+}
+
+.Cerium {
+  grid-area: Cerium;
+}
+
+.Praseodymium {
+  grid-area: Praseodymium;
+}
+
+.Neodymium {
+  grid-area: Neodymium;
+}
+
+.Promethium {
+  grid-area: Promethium;
+}
+
+.Samarium {
+  grid-area: Samarium;
+}
+
+.Europium {
+  grid-area: Europium;
+}
+
+.Gadolinium {
+  grid-area: Gadolinium;
+}
+
+.Terbium {
+  grid-area: Terbium;
+}
+
+.Dysprosium {
+  grid-area: Dysprosium;
+}
+
+.Holmium {
+  grid-area: Holmium;
+}
+
+.Erbium {
+  grid-area: Erbium;
+}
+
+.Thulium {
+  grid-area: Thulium;
+}
+
+.Ytterbium {
+  grid-area: Ytterbium;
+}
+
+.Lutetium {
+  grid-area: Lutetium;
+}
+
+.Hafnium {
+  grid-area: Hafnium;
+}
+
+.Tantalum {
+  grid-area: Tantalum;
+}
+
+.Wolfram {
+  grid-area: Wolfram;
+}
+
+.Rhenium {
+  grid-area: Rhenium;
+}
+
+.Osmium {
+  grid-area: Osmium;
+}
+
+.Iridium {
+  grid-area: Iridium;
+}
+
+.Platinum {
+  grid-area: Platinum;
+}
+
+.Gold {
+  grid-area: Gold;
+}
+
+.Mercury {
+  grid-area: Mercury;
+}
+
+.Thallium {
+  grid-area: Thallium;
+}
+
+.Lead {
+  grid-area: Lead;
+}
+
+.Bismuth {
+  grid-area: Bismuth;
+}
+
+.Polonium {
+  grid-area: Polonium;
+}
+
+.Astatine {
+  grid-area: Astatine;
+}
+
+.Radon {
+  grid-area: Radon;
+}
+
+.Francium {
+  grid-area: Francium;
+}
+
+.Radium {
+  grid-area: Radium;
+}
+
+.Actinium {
+  grid-area: Actinium;
+}
+
+.Thorium {
+  grid-area: Thorium;
+}
+
+.Protactinium {
+  grid-area: Protactinium;
+}
+
+.Uranium {
+  grid-area: Uranium;
+}
+
+.Neptunium {
+  grid-area: Neptunium;
+}
+
+.Plutonium {
+  grid-area: Plutonium;
+}
+
+.Americium {
+  grid-area: Americium;
+}
+
+.Curium {
+  grid-area: Curium;
+}
+
+.Berkelium {
+  grid-area: Berkelium;
+}
+
+.Californium {
+  grid-area: Californium;
+}
+
+.Einsteinium {
+  grid-area: Einsteinium;
+}
+
+.Fermium {
+  grid-area: Fermium;
+}
+
+.Mendelevium {
+  grid-area: Mendelevium;
+}
+
+.Nobelium {
+  grid-area: Nobelium;
+}
+
+.Lawrencium {
+  grid-area: Lawrencium;
+}
+
+.Rutherfordium {
+  grid-area: Rutherfordium;
+}
+
+.Dubnium {
+  grid-area: Dubnium;
+}
+
+.Seaborgium {
+  grid-area: Seaborgium;
+}
+
+.Bohrium {
+  grid-area: Bohrium;
+}
+
+.Hassium {
+  grid-area: Hassium;
+}
+
+.Meitnerium {
+  grid-area: Meitnerium;
+}
+
+.Darmstadtium {
+  grid-area: Darmstadtium;
+}
+
+.Roentgenium {
+  grid-area: Roentgenium;
+}
+
+.Copernicium {
+  grid-area: Copernicium;
+}
+
+.Nihonium {
+  grid-area: Nihonium;
+}
+
+.Flerovium {
+  grid-area: Flerovium;
+}
+
+.Moscovium {
+  grid-area: Moscovium;
+}
+
+.Livermorium {
+  grid-area: Livermorium;
+}
+
+.Tennessine {
+  grid-area: Tennessine;
+}
+
+.Oganesson {
+  grid-area: Oganesson;
+}
+
 body {
   background-color: black;
 }/*# sourceMappingURL=styles.css.map */
